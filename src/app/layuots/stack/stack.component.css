@@ -1,0 +1,25 @@
+/* Add mobile styles for the component here.  */
+StackLayout {
+    background: #f0f0f0;
+}
+StackLayout.horizontal {
+    height: 300;
+    margin-bottom: 10;
+}
+
+Label {
+    width: 50;
+    height: 50;
+    color: white;
+    text-align: center;
+}
+
+.lbl1 {
+    background: #0088ff;
+}
+.lbl2 {
+    background: #00bbff;
+}
+.lbl3 {
+    background: #00e5ff;
+}

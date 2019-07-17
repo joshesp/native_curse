@@ -1,0 +1,16 @@
+.title {
+    font-size: 26;
+    text-align: center;
+    color: #800062;
+    font-weight: bold;
+    margin-top: 10;
+}
+
+.txtField {
+    border-bottom-width: 1;
+    border-bottom-color: #7c015d;
+    margin: 30;
+    padding: 3;
+    background: #f9f9f9;
+    font-size: 17;
+}
