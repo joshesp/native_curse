@@ -1,0 +1,22 @@
+/* Add mobile styles for the component here.  */
+/* Add mobile styles for the component here.  */
+AbsoluteLayout {
+    background: #f0f0f0;
+}
+
+Label {
+    width: 50;
+    height: 50;
+    color: white;
+    text-align: center;
+}
+
+.lbl1 {
+    background: #0088ff;
+}
+.lbl2 {
+    background: #00bbff;
+}
+.lbl3 {
+    background: #00e5ff;
+}
