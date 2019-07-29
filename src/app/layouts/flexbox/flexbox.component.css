@@ -1,0 +1,40 @@
+/* Add mobile styles for the component here.  */
+FlexboxLayout.flexTop {
+    background: #f0f0f0;
+    height: 120;
+    margin-bottom: 10;
+}
+
+FlexboxLayout.flexBottom {
+    height: 300;
+}
+
+FlexboxLayout.flexLeft {
+    background: #f0f0f0;
+    width: 100;
+}
+
+FlexboxLayout.flexRight {
+    background: #f0f0f0;
+    width: 250;
+}
+
+Label {
+    width: 70;
+    height: 50;
+    color: white;
+    text-align: center;
+}
+
+FlexboxLayout.flexRight Label {
+    height: 80;
+}
+.lbl1 {
+    background: #0088ff;
+}
+.lbl2 {
+    background: #00bbff;
+}
+.lbl3 {
+    background: #00e5ff;
+}
