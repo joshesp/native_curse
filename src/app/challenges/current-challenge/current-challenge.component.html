@@ -3,6 +3,10 @@
         <Label class="title" [text]="challenge" style="font-size: 15" horizontalAlignment="center" *ngFor="let challenge of currentChallenges"></Label>
     </StackLayout>
 </ScrollView> -->
+<ActionBar title="Current challenge">
+    <NavigationButton></NavigationButton>
+</ActionBar>
+
 <ListView [items]="currentChallenges" (itemTap)="onItemTap($event)" iosEstimatedRowHeight="55">
     <ng-template let-challenge="item" let-i="index">
         <GridLayout rows="40,auto" columns="50,*">

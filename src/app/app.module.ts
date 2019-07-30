@@ -9,6 +9,9 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { AppComponent } from "./app.component";
 import { CurrentChallengeComponent } from "./challenges/current-challenge/current-challenge.component";
 import { ChallengeEditComponent } from "./challenges/challenge-edit/challenge-edit.component";
+import { AuthComponent } from "./auth/auth.component";
+import { TodayComponent } from "./today/today.component";
+import { AppRoutingModule } from "./app-routing.module";
 
 // import { StackComponent } from './layouts/stack/stack.component';
 // import { GridComponent } from './layouts/grid/grid.component';
@@ -21,12 +24,15 @@ import { ChallengeEditComponent } from "./challenges/challenge-edit/challenge-ed
     ],
     imports: [
         NativeScriptModule,
-        NativeScriptFormsModule
+        NativeScriptFormsModule,
+        AppRoutingModule
     ],
     declarations: [
         AppComponent,
         CurrentChallengeComponent,
-        ChallengeEditComponent
+        ChallengeEditComponent,
+        AuthComponent,
+        TodayComponent
         // StackComponent,
         // GridComponent,
         // AbsoluteComponent
