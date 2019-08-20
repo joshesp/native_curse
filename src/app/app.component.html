@@ -1,11 +1,9 @@
-<!-- <FlexboxLayout flexDirection="column">
-    <ns-challenge-edit (input)="onSetChallenge($event)"></ns-challenge-edit>
-    <ns-current-challenge [currentChallenges]="challenges"></ns-current-challenge>
-    <ns-stack></ns-stack>
-    <ns-grid></ns-grid>
-    <ns-absolute></ns-absolute>
-</FlexboxLayout> -->
-<!-- <StackLayout>
-    <router-outlet></router-outlet>
-</StackLayout> -->
-<page-router-outlet></page-router-outlet>
+<RadSideDrawer>
+    <FlexboxLayout tkDrawerContent class="drawer-container">
+        <Button class="btn" text="Logout"></Button>
+    </FlexboxLayout>
+
+    <StackLayout tkMainContent>
+        <page-router-outlet></page-router-outlet>
+    </StackLayout>
+</RadSideDrawer>
