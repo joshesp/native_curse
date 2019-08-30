@@ -19,6 +19,6 @@ export class CurrentChallengeComponent {
     }
 
     goToEdit() {
-        this.router.navigate(['/challenge-edit', {transition: {name: 'slideLeft'}}]);
+        this.router.navigate(['/challenges/edit', {transition: {name: 'slideLeft'}}]);
     }
 }
