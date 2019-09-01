@@ -7,14 +7,12 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
 import { NativeScriptUISideDrawerModule } from "nativescript-ui-sidedrawer/angular/side-drawer-directives";
 
+import { SharedModule } from "./shared/shared.module";
+
 import { AppComponent } from "./app.component";
-import { CurrentChallengeComponent } from "./challenges/current-challenge/current-challenge.component";
-import { ChallengeEditComponent } from "./challenges/challenge-edit/challenge-edit.component";
 import { AuthComponent } from "./auth/auth.component";
-import { TodayComponent } from "./today/today.component";
 import { AppRoutingModule } from "./app-routing.module";
-import { ActionBarComponent } from "./shared/ui/action-bar/action-bar.component";
-import { ChallengeTabsComponent } from "./challenges/challenge-tabs/challenge-tabs.component";
+import { DayModalComponent } from "./challenges/day-modal/day-modal.component";
 
 // import { StackComponent } from './layouts/stack/stack.component';
 // import { GridComponent } from './layouts/grid/grid.component';
@@ -29,23 +27,20 @@ import { ChallengeTabsComponent } from "./challenges/challenge-tabs/challenge-ta
         NativeScriptModule,
         NativeScriptFormsModule,
         NativeScriptUISideDrawerModule,
-        AppRoutingModule
+        AppRoutingModule,
+        SharedModule
     ],
     declarations: [
         AppComponent,
-        CurrentChallengeComponent,
-        ChallengeEditComponent,
         AuthComponent,
-        TodayComponent,
-        ActionBarComponent,
-        ChallengeTabsComponent
-        // StackComponent,
-        // GridComponent,
-        // AbsoluteComponent
+        DayModalComponent
     ],
     providers: [],
     schemas: [
         NO_ERRORS_SCHEMA
+    ],
+    entryComponents: [
+        DayModalComponent
     ]
 })
 /*
